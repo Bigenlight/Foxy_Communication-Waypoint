@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/coordinate_publisher/coordinate_publisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/coordinate_publisher/coordinate_publisher.egg-info/dependency_links.txt
+writing entry points to ../../build/coordinate_publisher/coordinate_publisher.egg-info/entry_points.txt
+writing requirements to ../../build/coordinate_publisher/coordinate_publisher.egg-info/requires.txt
+writing top-level names to ../../build/coordinate_publisher/coordinate_publisher.egg-info/top_level.txt
+reading manifest file '../../build/coordinate_publisher/coordinate_publisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/coordinate_publisher/coordinate_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+copying coordinate_publisher/__init__.py -> /home/theo/Capstone_communication/build/coordinate_publisher/build/lib/coordinate_publisher
+copying coordinate_publisher/publisher.py -> /home/theo/Capstone_communication/build/coordinate_publisher/build/lib/coordinate_publisher
+running install
+running install_lib
+creating /home/theo/Capstone_communication/install/coordinate_publisher/lib/python3.8/site-packages/coordinate_publisher
+copying /home/theo/Capstone_communication/build/coordinate_publisher/build/lib/coordinate_publisher/__init__.py -> /home/theo/Capstone_communication/install/coordinate_publisher/lib/python3.8/site-packages/coordinate_publisher
+copying /home/theo/Capstone_communication/build/coordinate_publisher/build/lib/coordinate_publisher/publisher.py -> /home/theo/Capstone_communication/install/coordinate_publisher/lib/python3.8/site-packages/coordinate_publisher
+byte-compiling /home/theo/Capstone_communication/install/coordinate_publisher/lib/python3.8/site-packages/coordinate_publisher/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/theo/Capstone_communication/install/coordinate_publisher/lib/python3.8/site-packages/coordinate_publisher/publisher.py to publisher.cpython-38.pyc
+running install_data
+copying resource/coordinate_publisher -> /home/theo/Capstone_communication/install/coordinate_publisher/share/ament_index/resource_index/packages
+copying package.xml -> /home/theo/Capstone_communication/install/coordinate_publisher/share/coordinate_publisher
+running install_egg_info
+Copying ../../build/coordinate_publisher/coordinate_publisher.egg-info to /home/theo/Capstone_communication/install/coordinate_publisher/lib/python3.8/site-packages/coordinate_publisher-0.0.0-py3.8.egg-info
+running install_scripts
+Installing coordinate_publisher script to /home/theo/Capstone_communication/install/coordinate_publisher/lib/coordinate_publisher
+writing list of installed files to '/home/theo/Capstone_communication/build/coordinate_publisher/install.log'

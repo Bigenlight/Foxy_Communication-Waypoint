@@ -1,0 +1,9 @@
+source;share/coordinate_publisher/hook/pythonpath.ps1
+source;share/coordinate_publisher/hook/pythonpath.dsv
+source;share/coordinate_publisher/hook/pythonpath.sh
+source;share/coordinate_publisher/hook/ament_prefix_path.ps1
+source;share/coordinate_publisher/hook/ament_prefix_path.dsv
+source;share/coordinate_publisher/hook/ament_prefix_path.sh
+source;../../build/coordinate_publisher/share/coordinate_publisher/hook/pythonpath_develop.ps1
+source;../../build/coordinate_publisher/share/coordinate_publisher/hook/pythonpath_develop.dsv
+source;../../build/coordinate_publisher/share/coordinate_publisher/hook/pythonpath_develop.sh

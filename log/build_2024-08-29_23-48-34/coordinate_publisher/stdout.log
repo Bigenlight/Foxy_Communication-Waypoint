@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing coordinate_publisher.egg-info/PKG-INFO
+writing dependency_links to coordinate_publisher.egg-info/dependency_links.txt
+writing entry points to coordinate_publisher.egg-info/entry_points.txt
+writing requirements to coordinate_publisher.egg-info/requires.txt
+writing top-level names to coordinate_publisher.egg-info/top_level.txt
+reading manifest file 'coordinate_publisher.egg-info/SOURCES.txt'
+writing manifest file 'coordinate_publisher.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/theo/Capstone_communication/install/coordinate_publisher/lib/python3.8/site-packages/coordinate-publisher.egg-link (link to .)
+Installing coordinate_publisher script to /home/theo/Capstone_communication/install/coordinate_publisher/lib/coordinate_publisher
+
+Installed /home/theo/Capstone_communication/build/coordinate_publisher
+running symlink_data
+symbolically linking /home/theo/Capstone_communication/build/coordinate_publisher/resource/coordinate_publisher -> /home/theo/Capstone_communication/install/coordinate_publisher/share/ament_index/resource_index/packages
+symbolically linking /home/theo/Capstone_communication/build/coordinate_publisher/package.xml -> /home/theo/Capstone_communication/install/coordinate_publisher/share/coordinate_publisher

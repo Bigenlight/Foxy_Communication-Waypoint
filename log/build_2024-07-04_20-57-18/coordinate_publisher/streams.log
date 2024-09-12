@@ -1,0 +1,37 @@
+[4.533s] Invoking command in '/home/hjpi/Capstone_communication/src/coordinate_publisher': PYTHONPATH=/home/hjpi/Capstone_communication/build/coordinate_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hjpi/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/coordinate_publisher build --build-base /home/hjpi/Capstone_communication/build/coordinate_publisher/build install --record /home/hjpi/Capstone_communication/build/coordinate_publisher/install.log --single-version-externally-managed install_data
+[5.636s] running egg_info
+[5.641s] creating ../../build/coordinate_publisher/coordinate_publisher.egg-info
+[5.647s] writing ../../build/coordinate_publisher/coordinate_publisher.egg-info/PKG-INFO
+[5.656s] writing dependency_links to ../../build/coordinate_publisher/coordinate_publisher.egg-info/dependency_links.txt
+[5.656s] writing entry points to ../../build/coordinate_publisher/coordinate_publisher.egg-info/entry_points.txt
+[5.658s] writing requirements to ../../build/coordinate_publisher/coordinate_publisher.egg-info/requires.txt
+[5.659s] writing top-level names to ../../build/coordinate_publisher/coordinate_publisher.egg-info/top_level.txt
+[5.660s] writing manifest file '../../build/coordinate_publisher/coordinate_publisher.egg-info/SOURCES.txt'
+[5.662s] reading manifest file '../../build/coordinate_publisher/coordinate_publisher.egg-info/SOURCES.txt'
+[5.670s] writing manifest file '../../build/coordinate_publisher/coordinate_publisher.egg-info/SOURCES.txt'
+[5.671s] running build
+[5.671s] running build_py
+[5.682s] creating /home/hjpi/Capstone_communication/build/coordinate_publisher/build
+[5.682s] creating /home/hjpi/Capstone_communication/build/coordinate_publisher/build/lib
+[5.683s] creating /home/hjpi/Capstone_communication/build/coordinate_publisher/build/lib/coordinate_publisher
+[5.684s] copying coordinate_publisher/__init__.py -> /home/hjpi/Capstone_communication/build/coordinate_publisher/build/lib/coordinate_publisher
+[5.685s] copying coordinate_publisher/publisher.py -> /home/hjpi/Capstone_communication/build/coordinate_publisher/build/lib/coordinate_publisher
+[5.687s] running install
+[5.687s] running install_lib
+[5.688s] creating /home/hjpi/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher
+[5.689s] copying /home/hjpi/Capstone_communication/build/coordinate_publisher/build/lib/coordinate_publisher/__init__.py -> /home/hjpi/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher
+[5.704s] copying /home/hjpi/Capstone_communication/build/coordinate_publisher/build/lib/coordinate_publisher/publisher.py -> /home/hjpi/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher
+[5.711s] byte-compiling /home/hjpi/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher/__init__.py to __init__.cpython-310.pyc
+[5.712s] byte-compiling /home/hjpi/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher/publisher.py to publisher.cpython-310.pyc
+[5.713s] running install_data
+[5.713s] creating /home/hjpi/Capstone_communication/install/coordinate_publisher/share/ament_index
+[5.714s] creating /home/hjpi/Capstone_communication/install/coordinate_publisher/share/ament_index/resource_index
+[5.714s] creating /home/hjpi/Capstone_communication/install/coordinate_publisher/share/ament_index/resource_index/packages
+[5.714s] copying resource/coordinate_publisher -> /home/hjpi/Capstone_communication/install/coordinate_publisher/share/ament_index/resource_index/packages
+[5.715s] copying package.xml -> /home/hjpi/Capstone_communication/install/coordinate_publisher/share/coordinate_publisher
+[5.715s] running install_egg_info
+[5.717s] Copying ../../build/coordinate_publisher/coordinate_publisher.egg-info to /home/hjpi/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher-0.0.0-py3.10.egg-info
+[5.718s] running install_scripts
+[5.792s] Installing coordinate_publisher script to /home/hjpi/Capstone_communication/install/coordinate_publisher/lib/coordinate_publisher
+[5.794s] writing list of installed files to '/home/hjpi/Capstone_communication/build/coordinate_publisher/install.log'
+[5.969s] Invoked command in '/home/hjpi/Capstone_communication/src/coordinate_publisher' returned '0': PYTHONPATH=/home/hjpi/Capstone_communication/build/coordinate_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hjpi/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/coordinate_publisher build --build-base /home/hjpi/Capstone_communication/build/coordinate_publisher/build install --record /home/hjpi/Capstone_communication/build/coordinate_publisher/install.log --single-version-externally-managed install_data

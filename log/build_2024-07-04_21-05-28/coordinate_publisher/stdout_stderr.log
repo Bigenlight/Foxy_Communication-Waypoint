@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/coordinate_publisher/coordinate_publisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/coordinate_publisher/coordinate_publisher.egg-info/dependency_links.txt
+writing entry points to ../../build/coordinate_publisher/coordinate_publisher.egg-info/entry_points.txt
+writing requirements to ../../build/coordinate_publisher/coordinate_publisher.egg-info/requires.txt
+writing top-level names to ../../build/coordinate_publisher/coordinate_publisher.egg-info/top_level.txt
+reading manifest file '../../build/coordinate_publisher/coordinate_publisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/coordinate_publisher/coordinate_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/hjpi/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/coordinate_publisher/coordinate_publisher.egg-info to /home/hjpi/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher-0.0.0-py3.10.egg-info
+running install_scripts
+Installing coordinate_publisher script to /home/hjpi/Capstone_communication/install/coordinate_publisher/lib/coordinate_publisher
+writing list of installed files to '/home/hjpi/Capstone_communication/build/coordinate_publisher/install.log'

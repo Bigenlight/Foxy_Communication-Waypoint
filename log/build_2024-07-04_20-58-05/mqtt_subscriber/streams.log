@@ -1,0 +1,23 @@
+[3.983s] Invoking command in '/home/hjpi/Capstone_communication/src/mqtt_subscriber': PYTHONPATH=/home/hjpi/Capstone_communication/build/mqtt_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hjpi/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mqtt_subscriber build --build-base /home/hjpi/Capstone_communication/build/mqtt_subscriber/build install --record /home/hjpi/Capstone_communication/build/mqtt_subscriber/install.log --single-version-externally-managed
+[5.134s] running egg_info
+[5.138s] writing ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/PKG-INFO
+[5.140s] writing dependency_links to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/dependency_links.txt
+[5.141s] writing entry points to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/entry_points.txt
+[5.141s] writing requirements to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/requires.txt
+[5.142s] writing top-level names to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/top_level.txt
+[5.151s] reading manifest file '../../build/mqtt_subscriber/mqtt_subscriber.egg-info/SOURCES.txt'
+[5.156s] writing manifest file '../../build/mqtt_subscriber/mqtt_subscriber.egg-info/SOURCES.txt'
+[5.157s] running build
+[5.157s] running build_py
+[5.158s] copying mqtt_subscriber/mqtt_subscriber.py -> /home/hjpi/Capstone_communication/build/mqtt_subscriber/build/lib/mqtt_subscriber
+[5.160s] running install
+[5.161s] running install_lib
+[5.165s] copying /home/hjpi/Capstone_communication/build/mqtt_subscriber/build/lib/mqtt_subscriber/mqtt_subscriber.py -> /home/hjpi/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages/mqtt_subscriber
+[5.168s] byte-compiling /home/hjpi/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages/mqtt_subscriber/mqtt_subscriber.py to mqtt_subscriber.cpython-310.pyc
+[5.174s] running install_egg_info
+[5.182s] removing '/home/hjpi/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages/mqtt_subscriber-0.0.0-py3.10.egg-info' (and everything under it)
+[5.184s] Copying ../../build/mqtt_subscriber/mqtt_subscriber.egg-info to /home/hjpi/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages/mqtt_subscriber-0.0.0-py3.10.egg-info
+[5.194s] running install_scripts
+[5.325s] Installing mqtt_subscriber script to /home/hjpi/Capstone_communication/install/mqtt_subscriber/lib/mqtt_subscriber
+[5.328s] writing list of installed files to '/home/hjpi/Capstone_communication/build/mqtt_subscriber/install.log'
+[5.543s] Invoked command in '/home/hjpi/Capstone_communication/src/mqtt_subscriber' returned '0': PYTHONPATH=/home/hjpi/Capstone_communication/build/mqtt_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hjpi/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mqtt_subscriber build --build-base /home/hjpi/Capstone_communication/build/mqtt_subscriber/build install --record /home/hjpi/Capstone_communication/build/mqtt_subscriber/install.log --single-version-externally-managed

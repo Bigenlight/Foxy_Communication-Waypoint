@@ -1,0 +1,3 @@
+[console_scripts]
+coordinate_publisher = coordinate_publisher.publisher:main
+

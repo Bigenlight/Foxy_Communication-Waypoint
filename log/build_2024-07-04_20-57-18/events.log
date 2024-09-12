@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.001757] (coordinate_publisher) JobQueued: {'identifier': 'coordinate_publisher', 'dependencies': OrderedDict()}
+[0.002607] (mqtt_subscriber) JobQueued: {'identifier': 'mqtt_subscriber', 'dependencies': OrderedDict()}
+[0.003477] (coordinate_publisher) JobStarted: {'identifier': 'coordinate_publisher'}
+[0.057008] (mqtt_subscriber) JobStarted: {'identifier': 'mqtt_subscriber'}
+[0.098980] (-) TimerEvent: {}
+[0.199839] (-) TimerEvent: {}
+[0.300695] (-) TimerEvent: {}
+[0.401732] (-) TimerEvent: {}
+[0.502482] (-) TimerEvent: {}
+[0.603242] (-) TimerEvent: {}
+[0.704017] (-) TimerEvent: {}
+[0.804758] (-) TimerEvent: {}
+[0.905561] (-) TimerEvent: {}
+[1.006330] (-) TimerEvent: {}
+[1.107237] (-) TimerEvent: {}
+[1.208568] (-) TimerEvent: {}
+[1.309762] (-) TimerEvent: {}
+[1.410989] (-) TimerEvent: {}
+[1.511880] (-) TimerEvent: {}
+[1.612642] (-) TimerEvent: {}
+[1.713399] (-) TimerEvent: {}
+[1.814204] (-) TimerEvent: {}
+[1.915289] (-) TimerEvent: {}
+[2.016719] (-) TimerEvent: {}
+[2.117524] (-) TimerEvent: {}
+[2.219452] (-) TimerEvent: {}
+[2.321759] (-) TimerEvent: {}
+[2.423092] (-) TimerEvent: {}
+[2.524736] (-) TimerEvent: {}
+[2.626532] (-) TimerEvent: {}
+[2.728042] (-) TimerEvent: {}
+[2.829603] (-) TimerEvent: {}
+[2.931008] (-) TimerEvent: {}
+[3.031818] (-) TimerEvent: {}
+[3.133302] (-) TimerEvent: {}
+[3.234826] (-) TimerEvent: {}
+[3.336368] (-) TimerEvent: {}
+[3.438095] (-) TimerEvent: {}
+[3.540141] (-) TimerEvent: {}
+[3.642381] (-) TimerEvent: {}
+[3.743299] (-) TimerEvent: {}
+[3.844277] (-) TimerEvent: {}
+[3.945314] (-) TimerEvent: {}
+[4.046348] (-) TimerEvent: {}
+[4.147350] (-) TimerEvent: {}
+[4.248361] (-) TimerEvent: {}
+[4.350150] (-) TimerEvent: {}
+[4.452448] (-) TimerEvent: {}
+[4.526528] (coordinate_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/coordinate_publisher', 'build', '--build-base', '/home/hjpi/Capstone_communication/build/coordinate_publisher/build', 'install', '--record', '/home/hjpi/Capstone_communication/build/coordinate_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hjpi/Capstone_communication/src/coordinate_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hjpi', 'SSH_CLIENT': '192.168.0.12 61614 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/hjpi', 'OLDPWD': '/home/hjpi', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/hjpi/Capstone_communication/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hjpi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '17', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/hjpi/Capstone_communication/install/mqtt_subscriber:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/hjpi/Capstone_communication/build/coordinate_publisher', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.12 61614 192.168.0.40 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hjpi/Capstone_communication/build/coordinate_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hjpi/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages:/home/hjpi/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.550736] (mqtt_subscriber) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mqtt_subscriber', 'build', '--build-base', '/home/hjpi/Capstone_communication/build/mqtt_subscriber/build', 'install', '--record', '/home/hjpi/Capstone_communication/build/mqtt_subscriber/install.log', '--single-version-externally-managed'], 'cwd': '/home/hjpi/Capstone_communication/src/mqtt_subscriber', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hjpi', 'SSH_CLIENT': '192.168.0.12 61614 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/hjpi', 'OLDPWD': '/home/hjpi', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/hjpi/Capstone_communication/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hjpi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '17', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/hjpi/Capstone_communication/install/mqtt_subscriber:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/hjpi/Capstone_communication/build/mqtt_subscriber', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.12 61614 192.168.0.40 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hjpi/Capstone_communication/build/mqtt_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hjpi/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages:/home/hjpi/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.558040] (-) TimerEvent: {}
+[4.658813] (-) TimerEvent: {}
+[4.759716] (-) TimerEvent: {}
+[4.860578] (-) TimerEvent: {}
+[4.961406] (-) TimerEvent: {}
+[5.062341] (-) TimerEvent: {}
+[5.163104] (-) TimerEvent: {}
+[5.263940] (-) TimerEvent: {}
+[5.364808] (-) TimerEvent: {}
+[5.465634] (-) TimerEvent: {}
+[5.566537] (-) TimerEvent: {}
+[5.639236] (coordinate_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[5.641916] (mqtt_subscriber) StdoutLine: {'line': b'running egg_info\n'}
+[5.644115] (coordinate_publisher) StdoutLine: {'line': b'creating ../../build/coordinate_publisher/coordinate_publisher.egg-info\n'}
+[5.648390] (coordinate_publisher) StdoutLine: {'line': b'writing ../../build/coordinate_publisher/coordinate_publisher.egg-info/PKG-INFO\n'}
+[5.650530] (mqtt_subscriber) StdoutLine: {'line': b'writing ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/PKG-INFO\n'}
+[5.651134] (mqtt_subscriber) StdoutLine: {'line': b'writing dependency_links to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/dependency_links.txt\n'}
+[5.657939] (mqtt_subscriber) StdoutLine: {'line': b'writing entry points to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/entry_points.txt\n'}
+[5.658477] (mqtt_subscriber) StdoutLine: {'line': b'writing requirements to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/requires.txt\n'}
+[5.658921] (coordinate_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/coordinate_publisher/coordinate_publisher.egg-info/dependency_links.txt\n'}
+[5.659405] (coordinate_publisher) StdoutLine: {'line': b'writing entry points to ../../build/coordinate_publisher/coordinate_publisher.egg-info/entry_points.txt\n'}
+[5.659850] (coordinate_publisher) StdoutLine: {'line': b'writing requirements to ../../build/coordinate_publisher/coordinate_publisher.egg-info/requires.txt\n'}
+[5.661960] (coordinate_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/coordinate_publisher/coordinate_publisher.egg-info/top_level.txt\n'}
+[5.663316] (coordinate_publisher) StdoutLine: {'line': b"writing manifest file '../../build/coordinate_publisher/coordinate_publisher.egg-info/SOURCES.txt'\n"}
+[5.664123] (mqtt_subscriber) StdoutLine: {'line': b'writing top-level names to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/top_level.txt\n'}
+[5.665042] (coordinate_publisher) StdoutLine: {'line': b"reading manifest file '../../build/coordinate_publisher/coordinate_publisher.egg-info/SOURCES.txt'\n"}
+[5.665825] (mqtt_subscriber) StdoutLine: {'line': b"reading manifest file '../../build/mqtt_subscriber/mqtt_subscriber.egg-info/SOURCES.txt'\n"}
+[5.672001] (-) TimerEvent: {}
+[5.673291] (coordinate_publisher) StdoutLine: {'line': b"writing manifest file '../../build/coordinate_publisher/coordinate_publisher.egg-info/SOURCES.txt'\n"}
+[5.674058] (coordinate_publisher) StdoutLine: {'line': b'running build\n'}
+[5.674710] (coordinate_publisher) StdoutLine: {'line': b'running build_py\n'}
+[5.675374] (mqtt_subscriber) StdoutLine: {'line': b"writing manifest file '../../build/mqtt_subscriber/mqtt_subscriber.egg-info/SOURCES.txt'\n"}
+[5.676442] (mqtt_subscriber) StdoutLine: {'line': b'running build\n'}
+[5.679438] (mqtt_subscriber) StdoutLine: {'line': b'running build_py\n'}
+[5.684817] (coordinate_publisher) StdoutLine: {'line': b'creating /home/hjpi/Capstone_communication/build/coordinate_publisher/build\n'}
+[5.685482] (coordinate_publisher) StdoutLine: {'line': b'creating /home/hjpi/Capstone_communication/build/coordinate_publisher/build/lib\n'}
+[5.686012] (coordinate_publisher) StdoutLine: {'line': b'creating /home/hjpi/Capstone_communication/build/coordinate_publisher/build/lib/coordinate_publisher\n'}
+[5.686549] (mqtt_subscriber) StdoutLine: {'line': b'copying mqtt_subscriber/mqtt_subscriber.py -> /home/hjpi/Capstone_communication/build/mqtt_subscriber/build/lib/mqtt_subscriber\n'}
+[5.687420] (coordinate_publisher) StdoutLine: {'line': b'copying coordinate_publisher/__init__.py -> /home/hjpi/Capstone_communication/build/coordinate_publisher/build/lib/coordinate_publisher\n'}
+[5.687952] (coordinate_publisher) StdoutLine: {'line': b'copying coordinate_publisher/publisher.py -> /home/hjpi/Capstone_communication/build/coordinate_publisher/build/lib/coordinate_publisher\n'}
+[5.688500] (mqtt_subscriber) StdoutLine: {'line': b'running install\n'}
+[5.689071] (mqtt_subscriber) StdoutLine: {'line': b'running install_lib\n'}
+[5.689582] (mqtt_subscriber) StdoutLine: {'line': b'copying /home/hjpi/Capstone_communication/build/mqtt_subscriber/build/lib/mqtt_subscriber/mqtt_subscriber.py -> /home/hjpi/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages/mqtt_subscriber\n'}
+[5.690009] (coordinate_publisher) StdoutLine: {'line': b'running install\n'}
+[5.690589] (coordinate_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[5.691288] (coordinate_publisher) StdoutLine: {'line': b'creating /home/hjpi/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher\n'}
+[5.692055] (coordinate_publisher) StdoutLine: {'line': b'copying /home/hjpi/Capstone_communication/build/coordinate_publisher/build/lib/coordinate_publisher/__init__.py -> /home/hjpi/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher\n'}
+[5.702119] (coordinate_publisher) StdoutLine: {'line': b'copying /home/hjpi/Capstone_communication/build/coordinate_publisher/build/lib/coordinate_publisher/publisher.py -> /home/hjpi/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher\n'}
+[5.707975] (mqtt_subscriber) StdoutLine: {'line': b'byte-compiling /home/hjpi/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages/mqtt_subscriber/mqtt_subscriber.py to mqtt_subscriber.cpython-310.pyc\n'}
+[5.714657] (coordinate_publisher) StdoutLine: {'line': b'byte-compiling /home/hjpi/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher/__init__.py to __init__.cpython-310.pyc\n'}
+[5.715169] (mqtt_subscriber) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.715612] (coordinate_publisher) StdoutLine: {'line': b'byte-compiling /home/hjpi/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher/publisher.py to publisher.cpython-310.pyc\n'}
+[5.716094] (coordinate_publisher) StdoutLine: {'line': b'running install_data\n'}
+[5.716692] (coordinate_publisher) StdoutLine: {'line': b'creating /home/hjpi/Capstone_communication/install/coordinate_publisher/share/ament_index\n'}
+[5.717144] (coordinate_publisher) StdoutLine: {'line': b'creating /home/hjpi/Capstone_communication/install/coordinate_publisher/share/ament_index/resource_index\n'}
+[5.717513] (coordinate_publisher) StdoutLine: {'line': b'creating /home/hjpi/Capstone_communication/install/coordinate_publisher/share/ament_index/resource_index/packages\n'}
+[5.717913] (coordinate_publisher) StdoutLine: {'line': b'copying resource/coordinate_publisher -> /home/hjpi/Capstone_communication/install/coordinate_publisher/share/ament_index/resource_index/packages\n'}
+[5.718306] (coordinate_publisher) StdoutLine: {'line': b'copying package.xml -> /home/hjpi/Capstone_communication/install/coordinate_publisher/share/coordinate_publisher\n'}
+[5.718788] (coordinate_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.719329] (mqtt_subscriber) StdoutLine: {'line': b"removing '/home/hjpi/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages/mqtt_subscriber-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.719829] (mqtt_subscriber) StdoutLine: {'line': b'Copying ../../build/mqtt_subscriber/mqtt_subscriber.egg-info to /home/hjpi/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages/mqtt_subscriber-0.0.0-py3.10.egg-info\n'}
+[5.720309] (coordinate_publisher) StdoutLine: {'line': b'Copying ../../build/coordinate_publisher/coordinate_publisher.egg-info to /home/hjpi/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher-0.0.0-py3.10.egg-info\n'}
+[5.720900] (coordinate_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[5.732634] (mqtt_subscriber) StdoutLine: {'line': b'running install_scripts\n'}
+[5.772247] (-) TimerEvent: {}
+[5.794743] (coordinate_publisher) StdoutLine: {'line': b'Installing coordinate_publisher script to /home/hjpi/Capstone_communication/install/coordinate_publisher/lib/coordinate_publisher\n'}
+[5.797619] (coordinate_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/hjpi/Capstone_communication/build/coordinate_publisher/install.log'\n"}
+[5.834269] (mqtt_subscriber) StdoutLine: {'line': b'Installing mqtt_subscriber script to /home/hjpi/Capstone_communication/install/mqtt_subscriber/lib/mqtt_subscriber\n'}
+[5.838069] (mqtt_subscriber) StdoutLine: {'line': b"writing list of installed files to '/home/hjpi/Capstone_communication/build/mqtt_subscriber/install.log'\n"}
+[5.872702] (-) TimerEvent: {}
+[5.971658] (coordinate_publisher) CommandEnded: {'returncode': 0}
+[5.974363] (-) TimerEvent: {}
+[6.075477] (-) TimerEvent: {}
+[6.109467] (coordinate_publisher) JobEnded: {'identifier': 'coordinate_publisher', 'rc': 0}
+[6.115450] (mqtt_subscriber) CommandEnded: {'returncode': 0}
+[6.148575] (mqtt_subscriber) JobEnded: {'identifier': 'mqtt_subscriber', 'rc': 0}
+[6.151816] (-) EventReactorShutdown: {}
