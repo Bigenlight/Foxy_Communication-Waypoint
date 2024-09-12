@@ -4,21 +4,57 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
 import pandas as pd
-from pyproj import Proj, Transformer
+from pyproj import Transformer
+
 
 class WaypointConverter(Node):
     def __init__(self):
         super().__init__('waypoint_converter')
-        self.subscription = self.create_subscription(
+        
+        # Initialize the reference coordinates
+        self.ref_lat = None
+        self.ref_lon = None
+        
+        # Subscriber for the GPS location topic
+        self.create_subscription(
+            String,
+            'gps_location_topic',
+            self.gps_callback,
+            10
+        )
+
+        # Subscriber for the coordination list topic
+        self.create_subscription(
             String,
             'coordination_list',
             self.listener_callback,
             10
         )
-        self.subscription  # prevent unused variable warning
+
         self.get_logger().info('Waypoint Converter Node has been started.')
 
+    def gps_callback(self, msg):
+        """
+        Callback to handle the incoming GPS location messages
+        to set the reference latitude and longitude.
+        """
+        try:
+            # Parse the GPS location from the message
+            gps_data = msg.data.strip().strip('()')
+            self.ref_lat, self.ref_lon = map(float, gps_data.split(','))
+
+            self.get_logger().info(f'Set reference GPS location to: ({self.ref_lat}, {self.ref_lon})')
+        except Exception as e:
+            self.get_logger().error(f'Error parsing GPS location: {e}')
+
     def listener_callback(self, msg):
+        """
+        Callback to handle the incoming coordination list messages.
+        """
+        if self.ref_lat is None or self.ref_lon is None:
+            self.get_logger().warn('Reference GPS location is not set yet. Waiting for GPS data...')
+            return
+
         gps_data = msg.data.strip()
 
         # Parse the GPS waypoints from the message
@@ -28,10 +64,7 @@ class WaypointConverter(Node):
             return
 
         # Use the first GPS point as the reference (origin) for relative conversion
-        ref_lat, ref_lon = gps_waypoints[0][:2]
-
-        # Define a projection from WGS84 (GPS coordinates) to a local ENU coordinate system
-        transformer = Transformer.from_crs("EPSG:4326", f"+proj=tmerc +lat_0={ref_lat} +lon_0={ref_lon} +k=1 +x_0=0 +y_0=0 +datum=WGS84", always_xy=True)
+        transformer = Transformer.from_crs("EPSG:4326", f"+proj=tmerc +lat_0={self.ref_lat} +lon_0={self.ref_lon} +k=1 +x_0=0 +y_0=0 +datum=WGS84", always_xy=True)
 
         # Convert GPS coordinates to local ENU coordinates
         relative_waypoints = []
@@ -76,7 +109,7 @@ class WaypointConverter(Node):
         }
 
         df = pd.DataFrame(data)
-        df.to_csv('relative_waypoints.csv', index=False)
+        df.to_csv('../2023CAPSTONE_AutoCar_in_Ros2/AutoCarROS2/autocar_map/data/relative_waypoints.csv', index=False)
 
 
 def main(args=None):
