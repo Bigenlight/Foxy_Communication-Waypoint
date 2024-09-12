@@ -1,0 +1,29 @@
+[1.296s] Invoking command in '/home/theo/Foxy_Communication-Waypoint/build/mqtt_subscriber': PYTHONPATH=/home/theo/Foxy_Communication-Waypoint/build/mqtt_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/Foxy_Communication-Waypoint/install/mqtt_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/theo/Foxy_Communication-Waypoint/build/mqtt_subscriber/build --no-deps
+[1.630s] running develop
+[1.630s] /home/theo/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.630s] !!
+[1.630s] 
+[1.630s]         ********************************************************************************
+[1.631s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.631s]         Instead, use pypa/build, pypa/installer or other
+[1.631s]         standards-based tools.
+[1.631s] 
+[1.631s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.631s]         ********************************************************************************
+[1.631s] 
+[1.631s] !!
+[1.632s]   easy_install.initialize_options(self)
+[1.864s] running egg_info
+[1.879s] writing mqtt_subscriber.egg-info/PKG-INFO
+[1.879s] writing dependency_links to mqtt_subscriber.egg-info/dependency_links.txt
+[1.879s] writing entry points to mqtt_subscriber.egg-info/entry_points.txt
+[1.879s] writing requirements to mqtt_subscriber.egg-info/requires.txt
+[1.880s] writing top-level names to mqtt_subscriber.egg-info/top_level.txt
+[1.911s] reading manifest file 'mqtt_subscriber.egg-info/SOURCES.txt'
+[1.912s] writing manifest file 'mqtt_subscriber.egg-info/SOURCES.txt'
+[1.974s] running build_ext
+[1.974s] Creating /home/theo/Foxy_Communication-Waypoint/install/mqtt_subscriber/lib/python3.8/site-packages/mqtt-subscriber.egg-link (link to .)
+[1.975s] Installing mqtt_subscriber script to /home/theo/Foxy_Communication-Waypoint/install/mqtt_subscriber/lib/mqtt_subscriber
+[1.975s] 
+[1.975s] Installed /home/theo/Foxy_Communication-Waypoint/build/mqtt_subscriber
+[2.002s] Invoked command in '/home/theo/Foxy_Communication-Waypoint/build/mqtt_subscriber' returned '0': PYTHONPATH=/home/theo/Foxy_Communication-Waypoint/build/mqtt_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/Foxy_Communication-Waypoint/install/mqtt_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/theo/Foxy_Communication-Waypoint/build/mqtt_subscriber/build --no-deps

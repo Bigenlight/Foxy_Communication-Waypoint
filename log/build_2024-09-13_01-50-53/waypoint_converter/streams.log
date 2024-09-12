@@ -1,0 +1,49 @@
+[1.311s] Invoking command in '/home/theo/Foxy_Communication-Waypoint/build/waypoint_converter': PYTHONPATH=/home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build --no-deps symlink_data
+[1.466s] /home/theo/.local/lib/python3.8/site-packages/setuptools/dist.py:472: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.466s] !!
+[1.467s] 
+[1.467s]         ********************************************************************************
+[1.467s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.467s]         versions. Please use the underscore name 'script_dir' instead.
+[1.467s] 
+[1.467s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[1.467s]         or your builds will no longer be supported.
+[1.467s] 
+[1.467s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.467s]         ********************************************************************************
+[1.467s] 
+[1.467s] !!
+[1.467s]   opt = self.warn_dash_deprecation(opt, section)
+[1.699s] running develop
+[1.699s] /home/theo/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.700s] !!
+[1.700s] 
+[1.700s]         ********************************************************************************
+[1.700s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.700s]         Instead, use pypa/build, pypa/installer or other
+[1.700s]         standards-based tools.
+[1.700s] 
+[1.701s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.701s]         ********************************************************************************
+[1.701s] 
+[1.701s] !!
+[1.701s]   easy_install.initialize_options(self)
+[1.921s] running egg_info
+[1.922s] creating waypoint_converter.egg-info
+[1.942s] writing waypoint_converter.egg-info/PKG-INFO
+[1.943s] writing dependency_links to waypoint_converter.egg-info/dependency_links.txt
+[1.943s] writing requirements to waypoint_converter.egg-info/requires.txt
+[1.943s] writing top-level names to waypoint_converter.egg-info/top_level.txt
+[1.944s] writing manifest file 'waypoint_converter.egg-info/SOURCES.txt'
+[1.976s] reading manifest file 'waypoint_converter.egg-info/SOURCES.txt'
+[1.977s] writing manifest file 'waypoint_converter.egg-info/SOURCES.txt'
+[2.046s] running build_ext
+[2.046s] Creating /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint-converter.egg-link (link to .)
+[2.047s] 
+[2.047s] Installed /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter
+[2.047s] running symlink_data
+[2.047s] creating /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/ament_index
+[2.048s] creating /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/ament_index/resource_index
+[2.048s] creating /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/ament_index/resource_index/packages
+[2.048s] symbolically linking /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/resource/waypoint_converter -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/ament_index/resource_index/packages
+[2.048s] symbolically linking /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/package.xml -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/waypoint_converter

@@ -10,11 +10,7 @@ setup.py
 ../../build/coordinate_publisher/coordinate_publisher.egg-info/zip-safe
 coordinate_publisher/__init__.py
 coordinate_publisher/publisher.py
-coordinate_publisher.egg-info/PKG-INFO
-coordinate_publisher.egg-info/SOURCES.txt
-coordinate_publisher.egg-info/dependency_links.txt
-coordinate_publisher.egg-info/entry_points.txt
-coordinate_publisher.egg-info/requires.txt
-coordinate_publisher.egg-info/top_level.txt
-coordinate_publisher.egg-info/zip-safe
 resource/coordinate_publisher
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

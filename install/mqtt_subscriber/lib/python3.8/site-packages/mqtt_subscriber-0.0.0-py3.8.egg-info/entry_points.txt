@@ -1,0 +1,2 @@
+[console_scripts]
+mqtt_subscriber = mqtt_subscriber.mqtt_subscriber:main

@@ -1,0 +1,32 @@
+[1.340s] Invoking command in '/home/theo/Foxy_Communication-Waypoint/build/coordinate_publisher': PYTHONPATH=/home/theo/Foxy_Communication-Waypoint/build/coordinate_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/Foxy_Communication-Waypoint/install/coordinate_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/theo/Foxy_Communication-Waypoint/build/coordinate_publisher/build --no-deps symlink_data
+[1.724s] running develop
+[1.724s] /home/theo/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.724s] !!
+[1.724s] 
+[1.724s]         ********************************************************************************
+[1.724s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.724s]         Instead, use pypa/build, pypa/installer or other
+[1.725s]         standards-based tools.
+[1.725s] 
+[1.725s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.725s]         ********************************************************************************
+[1.725s] 
+[1.725s] !!
+[1.725s]   easy_install.initialize_options(self)
+[1.937s] running egg_info
+[1.959s] writing coordinate_publisher.egg-info/PKG-INFO
+[1.959s] writing dependency_links to coordinate_publisher.egg-info/dependency_links.txt
+[1.959s] writing entry points to coordinate_publisher.egg-info/entry_points.txt
+[1.959s] writing requirements to coordinate_publisher.egg-info/requires.txt
+[1.960s] writing top-level names to coordinate_publisher.egg-info/top_level.txt
+[1.994s] reading manifest file 'coordinate_publisher.egg-info/SOURCES.txt'
+[1.994s] writing manifest file 'coordinate_publisher.egg-info/SOURCES.txt'
+[2.049s] running build_ext
+[2.049s] Creating /home/theo/Foxy_Communication-Waypoint/install/coordinate_publisher/lib/python3.8/site-packages/coordinate-publisher.egg-link (link to .)
+[2.050s] Installing coordinate_publisher script to /home/theo/Foxy_Communication-Waypoint/install/coordinate_publisher/lib/coordinate_publisher
+[2.050s] 
+[2.050s] Installed /home/theo/Foxy_Communication-Waypoint/build/coordinate_publisher
+[2.051s] running symlink_data
+[2.051s] symbolically linking /home/theo/Foxy_Communication-Waypoint/build/coordinate_publisher/resource/coordinate_publisher -> /home/theo/Foxy_Communication-Waypoint/install/coordinate_publisher/share/ament_index/resource_index/packages
+[2.051s] error: [Errno 17] File exists: '/home/theo/Foxy_Communication-Waypoint/build/coordinate_publisher/resource/coordinate_publisher' -> '/home/theo/Foxy_Communication-Waypoint/install/coordinate_publisher/share/ament_index/resource_index/packages/coordinate_publisher'
+[2.079s] Invoked command in '/home/theo/Foxy_Communication-Waypoint/build/coordinate_publisher' returned '1': PYTHONPATH=/home/theo/Foxy_Communication-Waypoint/build/coordinate_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/Foxy_Communication-Waypoint/install/coordinate_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/theo/Foxy_Communication-Waypoint/build/coordinate_publisher/build --no-deps symlink_data

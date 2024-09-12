@@ -1,0 +1,32 @@
+running develop
+Removing /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint-converter.egg-link (link to .)
+running egg_info
+writing ../../build/waypoint_converter/waypoint_converter.egg-info/PKG-INFO
+writing dependency_links to ../../build/waypoint_converter/waypoint_converter.egg-info/dependency_links.txt
+writing entry points to ../../build/waypoint_converter/waypoint_converter.egg-info/entry_points.txt
+writing requirements to ../../build/waypoint_converter/waypoint_converter.egg-info/requires.txt
+writing top-level names to ../../build/waypoint_converter/waypoint_converter.egg-info/top_level.txt
+reading manifest file '../../build/waypoint_converter/waypoint_converter.egg-info/SOURCES.txt'
+writing manifest file '../../build/waypoint_converter/waypoint_converter.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build
+creating /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build/lib
+creating /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build/lib/waypoint_converter
+copying waypoint_converter/__init__.py -> /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build/lib/waypoint_converter
+copying waypoint_converter/waypoint_converter.py -> /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build/lib/waypoint_converter
+running install
+running install_lib
+creating /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter
+copying /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build/lib/waypoint_converter/__init__.py -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter
+copying /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build/lib/waypoint_converter/waypoint_converter.py -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter
+byte-compiling /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter/waypoint_converter.py to waypoint_converter.cpython-38.pyc
+running install_data
+copying resource/waypoint_converter -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/ament_index/resource_index/packages
+copying package.xml -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/waypoint_converter
+running install_egg_info
+Copying ../../build/waypoint_converter/waypoint_converter.egg-info to /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter-0.0.0-py3.8.egg-info
+running install_scripts
+Installing waypoint_converter script to /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/waypoint_converter
+writing list of installed files to '/home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/install.log'

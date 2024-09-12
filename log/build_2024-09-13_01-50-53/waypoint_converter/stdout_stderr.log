@@ -1,0 +1,48 @@
+/home/theo/.local/lib/python3.8/site-packages/setuptools/dist.py:472: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        By 2024-Sep-26, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+running develop
+/home/theo/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+creating waypoint_converter.egg-info
+writing waypoint_converter.egg-info/PKG-INFO
+writing dependency_links to waypoint_converter.egg-info/dependency_links.txt
+writing requirements to waypoint_converter.egg-info/requires.txt
+writing top-level names to waypoint_converter.egg-info/top_level.txt
+writing manifest file 'waypoint_converter.egg-info/SOURCES.txt'
+reading manifest file 'waypoint_converter.egg-info/SOURCES.txt'
+writing manifest file 'waypoint_converter.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint-converter.egg-link (link to .)
+
+Installed /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter
+running symlink_data
+creating /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/ament_index
+creating /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/ament_index/resource_index
+creating /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/ament_index/resource_index/packages
+symbolically linking /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/resource/waypoint_converter -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/ament_index/resource_index/packages
+symbolically linking /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/package.xml -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/waypoint_converter

@@ -1,0 +1,28 @@
+[0.789s] Invoking command in '/home/theo/Foxy_Communication-Waypoint/build/mqtt_subscriber': PYTHONPATH=/home/theo/Foxy_Communication-Waypoint/build/mqtt_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/Foxy_Communication-Waypoint/install/mqtt_subscriber/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/theo/Foxy_Communication-Waypoint/build/mqtt_subscriber/build --no-deps
+[1.035s] running develop
+[1.035s] /home/theo/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.035s] !!
+[1.035s] 
+[1.035s]         ********************************************************************************
+[1.035s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.035s]         Instead, use pypa/build, pypa/installer or other
+[1.035s]         standards-based tools.
+[1.035s] 
+[1.035s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.036s]         ********************************************************************************
+[1.036s] 
+[1.036s] !!
+[1.036s]   easy_install.initialize_options(self)
+[1.182s] running egg_info
+[1.193s] writing mqtt_subscriber.egg-info/PKG-INFO
+[1.193s] writing dependency_links to mqtt_subscriber.egg-info/dependency_links.txt
+[1.193s] writing entry points to mqtt_subscriber.egg-info/entry_points.txt
+[1.193s] writing requirements to mqtt_subscriber.egg-info/requires.txt
+[1.194s] writing top-level names to mqtt_subscriber.egg-info/top_level.txt
+[1.217s] reading manifest file 'mqtt_subscriber.egg-info/SOURCES.txt'
+[1.217s] writing manifest file 'mqtt_subscriber.egg-info/SOURCES.txt'
+[1.263s] running build_ext
+[1.264s] Creating /home/theo/Foxy_Communication-Waypoint/install/mqtt_subscriber/lib/python3.8/site-packages/mqtt-subscriber.egg-link (link to .)
+[1.264s] Installing mqtt_subscriber script to /home/theo/Foxy_Communication-Waypoint/install/mqtt_subscriber/lib/mqtt_subscriber
+[1.264s] 
+[1.265s] Installed /home/theo/Foxy_Communication-Waypoint/build/mqtt_subscriber
