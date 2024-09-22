@@ -37,7 +37,9 @@ class MQTTSubscriber(Node):
         # hotspot(phone)
         #self.mqtt_client.connect("192.168.151.154", 1883, 60)
         # laptop(thedering)
-        self.mqtt_client.connect("192.168.137.1", 1883, 60)
+        #self.mqtt_client.connect("192.168.137.1", 1883, 60)
+        #본가 데탑 2.4g
+        self.mqtt_client.connect("192.168.35.151", 1883, 60)
 
         self.mqtt_client.loop_start()
 
