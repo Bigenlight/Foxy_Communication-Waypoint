@@ -18,7 +18,7 @@ class WaypointConverter(Node):
         # Subscriber for the GPS location topic
         self.create_subscription(
             String,
-            'gps_location_topic',
+            'gps_location',
             self.gps_callback,
             10
         )
