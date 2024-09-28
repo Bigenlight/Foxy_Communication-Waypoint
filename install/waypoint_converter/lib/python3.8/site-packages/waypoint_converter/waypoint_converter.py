@@ -109,6 +109,8 @@ class WaypointConverter(Node):
         }
 
         df = pd.DataFrame(data)
+        
+        # 각자 경로에 맞게 앞부분 디렉토리만 변경, 홈에서 시작함. 이름과 home 작성 할 필요 ㄴㄴ
         df.to_csv('../2023CAPSTONE_AutoCar_in_Ros2/AutoCarROS2/autocar_map/data/relative_waypoints.csv', index=False)
 
 

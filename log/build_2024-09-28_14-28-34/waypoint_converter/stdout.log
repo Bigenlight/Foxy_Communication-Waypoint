@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing waypoint_converter.egg-info/PKG-INFO
+writing dependency_links to waypoint_converter.egg-info/dependency_links.txt
+writing entry points to waypoint_converter.egg-info/entry_points.txt
+writing requirements to waypoint_converter.egg-info/requires.txt
+writing top-level names to waypoint_converter.egg-info/top_level.txt
+reading manifest file 'waypoint_converter.egg-info/SOURCES.txt'
+writing manifest file 'waypoint_converter.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint-converter.egg-link (link to .)
+Installing waypoint_converter script to /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/waypoint_converter
+
+Installed /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter
+running symlink_data
+symbolically linking /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/resource/waypoint_converter -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/ament_index/resource_index/packages
+symbolically linking /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/package.xml -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/waypoint_converter

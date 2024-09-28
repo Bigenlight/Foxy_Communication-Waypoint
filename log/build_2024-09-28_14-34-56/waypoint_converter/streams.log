@@ -1,0 +1,46 @@
+[1.409s] Invoking command in '/home/theo/Foxy_Communication-Waypoint/build/waypoint_converter': PYTHONPATH=/home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build
+[1.716s] running develop
+[1.717s] /home/theo/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.717s] !!
+[1.717s] 
+[1.717s]         ********************************************************************************
+[1.717s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.717s]         Instead, use pypa/build, pypa/installer or other
+[1.717s]         standards-based tools.
+[1.717s] 
+[1.717s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.717s]         ********************************************************************************
+[1.717s] 
+[1.718s] !!
+[1.718s]   easy_install.initialize_options(self)
+[1.944s] Removing /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint-converter.egg-link (link to .)
+[1.981s] Invoked command in '/home/theo/Foxy_Communication-Waypoint/build/waypoint_converter' returned '0': PYTHONPATH=/home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build
+[1.984s] Invoking command in '/home/theo/Foxy_Communication-Waypoint/src/waypoint_converter': PYTHONPATH=/home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/waypoint_converter build --build-base /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build install --record /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/install.log --single-version-externally-managed install_data --force
+[2.234s] running egg_info
+[2.251s] writing ../../build/waypoint_converter/waypoint_converter.egg-info/PKG-INFO
+[2.251s] writing dependency_links to ../../build/waypoint_converter/waypoint_converter.egg-info/dependency_links.txt
+[2.252s] writing entry points to ../../build/waypoint_converter/waypoint_converter.egg-info/entry_points.txt
+[2.252s] writing requirements to ../../build/waypoint_converter/waypoint_converter.egg-info/requires.txt
+[2.252s] writing top-level names to ../../build/waypoint_converter/waypoint_converter.egg-info/top_level.txt
+[2.406s] reading manifest file '../../build/waypoint_converter/waypoint_converter.egg-info/SOURCES.txt'
+[2.407s] writing manifest file '../../build/waypoint_converter/waypoint_converter.egg-info/SOURCES.txt'
+[2.407s] running build
+[2.407s] running build_py
+[2.407s] copying waypoint_converter/__init__.py -> /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build/lib/waypoint_converter
+[2.408s] copying waypoint_converter/waypoint_converter.py -> /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build/lib/waypoint_converter
+[2.408s] running install
+[2.413s] running install_lib
+[2.431s] creating /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter
+[2.432s] copying /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build/lib/waypoint_converter/__init__.py -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter
+[2.432s] copying /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build/lib/waypoint_converter/waypoint_converter.py -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter
+[2.432s] byte-compiling /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter/__init__.py to __init__.cpython-38.pyc
+[2.433s] byte-compiling /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter/waypoint_converter.py to waypoint_converter.cpython-38.pyc
+[2.434s] running install_data
+[2.434s] copying resource/waypoint_converter -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/ament_index/resource_index/packages
+[2.434s] copying package.xml -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/waypoint_converter
+[2.434s] running install_egg_info
+[2.453s] Copying ../../build/waypoint_converter/waypoint_converter.egg-info to /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter-0.0.0-py3.8.egg-info
+[2.454s] running install_scripts
+[2.504s] Installing waypoint_converter script to /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/waypoint_converter
+[2.504s] writing list of installed files to '/home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/install.log'
+[2.534s] Invoked command in '/home/theo/Foxy_Communication-Waypoint/src/waypoint_converter' returned '0': PYTHONPATH=/home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/waypoint_converter build --build-base /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build install --record /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/install.log --single-version-externally-managed install_data --force

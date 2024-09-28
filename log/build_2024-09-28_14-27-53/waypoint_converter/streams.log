@@ -1,0 +1,27 @@
+[2.032s] Invoking command in '/home/theo/Foxy_Communication-Waypoint/src/waypoint_converter': PYTHONPATH=/home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/waypoint_converter build --build-base /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build install --record /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/install.log --single-version-externally-managed install_data
+[2.290s] running egg_info
+[2.302s] writing ../../build/waypoint_converter/waypoint_converter.egg-info/PKG-INFO
+[2.326s] writing dependency_links to ../../build/waypoint_converter/waypoint_converter.egg-info/dependency_links.txt
+[2.429s] writing entry points to ../../build/waypoint_converter/waypoint_converter.egg-info/entry_points.txt
+[2.464s] writing requirements to ../../build/waypoint_converter/waypoint_converter.egg-info/requires.txt
+[2.475s] writing top-level names to ../../build/waypoint_converter/waypoint_converter.egg-info/top_level.txt
+[2.725s] reading manifest file '../../build/waypoint_converter/waypoint_converter.egg-info/SOURCES.txt'
+[2.741s] writing manifest file '../../build/waypoint_converter/waypoint_converter.egg-info/SOURCES.txt'
+[2.741s] running build
+[2.742s] running build_py
+[2.742s] copying waypoint_converter/__init__.py -> /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build/lib/waypoint_converter
+[2.742s] copying waypoint_converter/waypoint_converter.py -> /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build/lib/waypoint_converter
+[2.742s] running install
+[2.747s] running install_lib
+[2.760s] copying /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build/lib/waypoint_converter/waypoint_converter.py -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter
+[2.761s] byte-compiling /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter/waypoint_converter.py to waypoint_converter.cpython-38.pyc
+[2.762s] running install_data
+[2.762s] copying resource/waypoint_converter -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/ament_index/resource_index/packages
+[2.762s] copying package.xml -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/waypoint_converter
+[2.762s] running install_egg_info
+[2.775s] removing '/home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter-0.0.0-py3.8.egg-info' (and everything under it)
+[2.775s] Copying ../../build/waypoint_converter/waypoint_converter.egg-info to /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter-0.0.0-py3.8.egg-info
+[2.788s] running install_scripts
+[2.828s] Installing waypoint_converter script to /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/waypoint_converter
+[2.828s] writing list of installed files to '/home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/install.log'
+[2.920s] Invoked command in '/home/theo/Foxy_Communication-Waypoint/src/waypoint_converter' returned '0': PYTHONPATH=/home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/waypoint_converter build --build-base /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build install --record /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/install.log --single-version-externally-managed install_data
