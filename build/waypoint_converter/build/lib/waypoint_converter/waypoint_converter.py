@@ -6,7 +6,6 @@ from std_msgs.msg import String
 import pandas as pd
 from pyproj import Transformer
 
-
 class WaypointConverter(Node):
     def __init__(self):
         super().__init__('waypoint_converter')
@@ -18,7 +17,7 @@ class WaypointConverter(Node):
         # Subscriber for the GPS location topic
         self.create_subscription(
             String,
-            'gps_location_topic',
+            'gps_location',
             self.gps_callback,
             10
         )
@@ -40,7 +39,7 @@ class WaypointConverter(Node):
         """
         try:
             # Parse the GPS location from the message
-            gps_data = msg.data.strip().strip('()')
+            gps_data = msg.data.strip().strip(' ').strip(';').strip('()')
             self.ref_lat, self.ref_lon = map(float, gps_data.split(','))
 
             self.get_logger().info(f'Set reference GPS location to: ({self.ref_lat}, {self.ref_lon})')
@@ -64,16 +63,23 @@ class WaypointConverter(Node):
             return
 
         # Use the first GPS point as the reference (origin) for relative conversion
-        transformer = Transformer.from_crs("EPSG:4326", f"+proj=tmerc +lat_0={self.ref_lat} +lon_0={self.ref_lon} +k=1 +x_0=0 +y_0=0 +datum=WGS84", always_xy=True)
+        transformer = Transformer.from_crs(
+            "EPSG:4326",
+            f"+proj=tmerc +lat_0={self.ref_lat} +lon_0={self.ref_lon} +k=1 +x_0=0 +y_0=0 +datum=WGS84",
+            always_xy=True
+        )
 
         # Convert GPS coordinates to local ENU coordinates
         relative_waypoints = []
         for lat, lon, link in gps_waypoints:
             x, y = transformer.transform(lon, lat)
             relative_waypoints.append((x, y, link))
+        
+        # **Add interpolation between waypoints**
+        dense_waypoints = self.interpolate_waypoints(relative_waypoints, 50) # 좌표 50배
 
         # Save the converted waypoints to a CSV file
-        self.save_to_csv(relative_waypoints)
+        self.save_to_csv(dense_waypoints)
         self.get_logger().info("Relative waypoints saved to 'relative_waypoints.csv'.")
 
     def parse_gps_data(self, data):
@@ -98,6 +104,25 @@ class WaypointConverter(Node):
 
         return waypoints
 
+    def interpolate_waypoints(self, waypoints, num_points_between):
+        """
+        Adds interpolated waypoints between each pair of waypoints.
+        """
+        dense_waypoints = []
+        for i in range(len(waypoints) - 1):
+            x1, y1, link1 = waypoints[i]
+            x2, y2, link2 = waypoints[i + 1]
+            # Interpolate between waypoints
+            for j in range(num_points_between + 1):
+                t = j / (num_points_between + 1)
+                x = x1 + t * (x2 - x1)
+                y = y1 + t * (y2 - y1)
+                link = link1  # Use the link of the starting waypoint
+                dense_waypoints.append((x, y, link))
+        # Add the last waypoint
+        dense_waypoints.append(waypoints[-1])
+        return dense_waypoints
+
     def save_to_csv(self, waypoints):
         """
         Saves the converted waypoints to a CSV file.
@@ -109,10 +134,9 @@ class WaypointConverter(Node):
         }
 
         df = pd.DataFrame(data)
-        
-        # 각자 경로에 맞게 앞부분 디렉토리만 변경, 홈에서 시작함. 이름과 home 작성 할 필요 ㄴㄴ
-        df.to_csv('../2023CAPSTONE_AutoCar_in_Ros2/AutoCarROS2/autocar_map/data/relative_waypoints.csv', index=False)
 
+        # Save to CSV file (update the path as needed)
+        df.to_csv('../2023CAPSTONE_AutoCar_in_Ros2/AutoCarROS2/autocar_map/data/relative_waypoints.csv', index=False)
 
 def main(args=None):
     rclpy.init(args=args)
@@ -125,7 +149,6 @@ def main(args=None):
     finally:
         waypoint_converter.destroy_node()
         rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()

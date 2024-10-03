@@ -33,13 +33,13 @@ class MQTTSubscriber(Node):
 
         # Connect to MQTT broker
         # window(ICES lab 5g)
-        #self.mqtt_client.connect("192.168.0.12", 1883, 60)  
+        self.mqtt_client.connect("192.168.0.12", 1883, 60)  
         # hotspot(phone)
         #self.mqtt_client.connect("192.168.151.154", 1883, 60)
         # laptop(thedering)
         #self.mqtt_client.connect("192.168.137.1", 1883, 60)
         #본가 데탑 2.4g
-        self.mqtt_client.connect("192.168.35.151", 1883, 60)
+        #self.mqtt_client.connect("192.168.35.151", 1883, 60)
 
         self.mqtt_client.loop_start()
 
