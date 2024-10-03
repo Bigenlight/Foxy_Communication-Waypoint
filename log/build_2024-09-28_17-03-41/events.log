@@ -1,0 +1,16 @@
+[0.000000] (-) TimerEvent: {}
+[0.000090] (coordinate_publisher) JobQueued: {'identifier': 'coordinate_publisher', 'dependencies': OrderedDict()}
+[0.000115] (mqtt_subscriber) JobQueued: {'identifier': 'mqtt_subscriber', 'dependencies': OrderedDict()}
+[0.000134] (waypoint_converter) JobQueued: {'identifier': 'waypoint_converter', 'dependencies': OrderedDict()}
+[0.000149] (communication_launch) JobQueued: {'identifier': 'communication_launch', 'dependencies': OrderedDict([('mqtt_subscriber', '/home/dj/Foxy_Communication-Waypoint/install/mqtt_subscriber'), ('waypoint_converter', '/home/dj/Foxy_Communication-Waypoint/install/waypoint_converter')])}
+[0.000168] (mqtt_subscriber) JobStarted: {'identifier': 'mqtt_subscriber'}
+[0.007822] (waypoint_converter) JobStarted: {'identifier': 'waypoint_converter'}
+[0.012645] (coordinate_publisher) JobStarted: {'identifier': 'coordinate_publisher'}
+[0.099524] (-) TimerEvent: {}
+[0.199909] (-) TimerEvent: {}
+[0.300233] (-) TimerEvent: {}
+[0.347785] (waypoint_converter) JobEnded: {'identifier': 'waypoint_converter', 'rc': 0}
+[0.349243] (mqtt_subscriber) JobEnded: {'identifier': 'mqtt_subscriber', 'rc': 'SIGINT'}
+[0.349503] (coordinate_publisher) JobEnded: {'identifier': 'coordinate_publisher', 'rc': 'SIGINT'}
+[0.359589] (communication_launch) JobSkipped: {'identifier': 'communication_launch'}
+[0.359628] (-) EventReactorShutdown: {}

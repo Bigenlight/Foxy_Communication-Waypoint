@@ -142,7 +142,8 @@ class WaypointConverter(Node):
         df = pd.DataFrame(data)
 
         # csv 파일 저장 경로 수정해야 함
-        csv_file = '../2023CAPSTONE_AutoCar_in_Ros2/AutoCarROS2/autocar_map/data/relative_waypoints.csv'
+        # csv_file = '../2023CAPSTONE_AutoCar_in_Ros2/AutoCarROS2/autocar_map/data/relative_waypoints.csv'
+        csv_file = '../ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_map/data/relative_waypoints.csv'
         df.to_csv(csv_file, index=False)
         
         self.get_logger().warn(f"Saved new Waypoint csv to {csv_file}")

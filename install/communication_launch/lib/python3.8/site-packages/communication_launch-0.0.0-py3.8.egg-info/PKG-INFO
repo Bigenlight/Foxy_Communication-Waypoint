@@ -1,8 +1,10 @@
-Metadata-Version: 2.1
-Name: communication_launch
+Metadata-Version: 1.0
+Name: communication-launch
 Version: 0.0.0
 Summary: Launch file for communication packages
+Home-page: UNKNOWN
 Author: Your Name
 Author-email: your.email@example.com
 License: License declaration
-Requires-Dist: setuptools
+Description: UNKNOWN
+Platform: UNKNOWN

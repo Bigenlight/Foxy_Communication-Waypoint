@@ -1,2 +1,3 @@
 [console_scripts]
 waypoint_converter = waypoint_converter.waypoint_converter:main
+

@@ -1,0 +1,37 @@
+[0.943s] Invoking command in '/home/dj/Foxy_Communication-Waypoint/src/coordinate_publisher': PYTHONPATH=/home/dj/Foxy_Communication-Waypoint/build/coordinate_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dj/Foxy_Communication-Waypoint/install/coordinate_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/coordinate_publisher build --build-base /home/dj/Foxy_Communication-Waypoint/build/coordinate_publisher/build install --record /home/dj/Foxy_Communication-Waypoint/build/coordinate_publisher/install.log --single-version-externally-managed install_data
+[1.128s] running egg_info
+[1.129s] creating ../../build/coordinate_publisher/coordinate_publisher.egg-info
+[1.129s] writing ../../build/coordinate_publisher/coordinate_publisher.egg-info/PKG-INFO
+[1.129s] writing dependency_links to ../../build/coordinate_publisher/coordinate_publisher.egg-info/dependency_links.txt
+[1.129s] writing entry points to ../../build/coordinate_publisher/coordinate_publisher.egg-info/entry_points.txt
+[1.130s] writing requirements to ../../build/coordinate_publisher/coordinate_publisher.egg-info/requires.txt
+[1.130s] writing top-level names to ../../build/coordinate_publisher/coordinate_publisher.egg-info/top_level.txt
+[1.131s] writing manifest file '../../build/coordinate_publisher/coordinate_publisher.egg-info/SOURCES.txt'
+[1.160s] reading manifest file '../../build/coordinate_publisher/coordinate_publisher.egg-info/SOURCES.txt'
+[1.161s] writing manifest file '../../build/coordinate_publisher/coordinate_publisher.egg-info/SOURCES.txt'
+[1.161s] running build
+[1.161s] running build_py
+[1.161s] creating /home/dj/Foxy_Communication-Waypoint/build/coordinate_publisher/build
+[1.162s] creating /home/dj/Foxy_Communication-Waypoint/build/coordinate_publisher/build/lib
+[1.162s] creating /home/dj/Foxy_Communication-Waypoint/build/coordinate_publisher/build/lib/coordinate_publisher
+[1.162s] copying coordinate_publisher/publisher.py -> /home/dj/Foxy_Communication-Waypoint/build/coordinate_publisher/build/lib/coordinate_publisher
+[1.162s] copying coordinate_publisher/__init__.py -> /home/dj/Foxy_Communication-Waypoint/build/coordinate_publisher/build/lib/coordinate_publisher
+[1.162s] running install
+[1.162s] running install_lib
+[1.163s] creating /home/dj/Foxy_Communication-Waypoint/install/coordinate_publisher/lib/python3.8/site-packages/coordinate_publisher
+[1.163s] copying /home/dj/Foxy_Communication-Waypoint/build/coordinate_publisher/build/lib/coordinate_publisher/publisher.py -> /home/dj/Foxy_Communication-Waypoint/install/coordinate_publisher/lib/python3.8/site-packages/coordinate_publisher
+[1.163s] copying /home/dj/Foxy_Communication-Waypoint/build/coordinate_publisher/build/lib/coordinate_publisher/__init__.py -> /home/dj/Foxy_Communication-Waypoint/install/coordinate_publisher/lib/python3.8/site-packages/coordinate_publisher
+[1.164s] byte-compiling /home/dj/Foxy_Communication-Waypoint/install/coordinate_publisher/lib/python3.8/site-packages/coordinate_publisher/publisher.py to publisher.cpython-38.pyc
+[1.165s] byte-compiling /home/dj/Foxy_Communication-Waypoint/install/coordinate_publisher/lib/python3.8/site-packages/coordinate_publisher/__init__.py to __init__.cpython-38.pyc
+[1.165s] running install_data
+[1.165s] creating /home/dj/Foxy_Communication-Waypoint/install/coordinate_publisher/share/ament_index
+[1.166s] creating /home/dj/Foxy_Communication-Waypoint/install/coordinate_publisher/share/ament_index/resource_index
+[1.166s] creating /home/dj/Foxy_Communication-Waypoint/install/coordinate_publisher/share/ament_index/resource_index/packages
+[1.166s] copying resource/coordinate_publisher -> /home/dj/Foxy_Communication-Waypoint/install/coordinate_publisher/share/ament_index/resource_index/packages
+[1.166s] copying package.xml -> /home/dj/Foxy_Communication-Waypoint/install/coordinate_publisher/share/coordinate_publisher
+[1.166s] running install_egg_info
+[1.168s] Copying ../../build/coordinate_publisher/coordinate_publisher.egg-info to /home/dj/Foxy_Communication-Waypoint/install/coordinate_publisher/lib/python3.8/site-packages/coordinate_publisher-0.0.0-py3.8.egg-info
+[1.169s] running install_scripts
+[1.184s] Installing coordinate_publisher script to /home/dj/Foxy_Communication-Waypoint/install/coordinate_publisher/lib/coordinate_publisher
+[1.185s] writing list of installed files to '/home/dj/Foxy_Communication-Waypoint/build/coordinate_publisher/install.log'
+[1.206s] Invoked command in '/home/dj/Foxy_Communication-Waypoint/src/coordinate_publisher' returned '0': PYTHONPATH=/home/dj/Foxy_Communication-Waypoint/build/coordinate_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dj/Foxy_Communication-Waypoint/install/coordinate_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/coordinate_publisher build --build-base /home/dj/Foxy_Communication-Waypoint/build/coordinate_publisher/build install --record /home/dj/Foxy_Communication-Waypoint/build/coordinate_publisher/install.log --single-version-externally-managed install_data

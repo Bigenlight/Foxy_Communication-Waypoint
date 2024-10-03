@@ -1,2 +1,2 @@
-setuptools
 paho-mqtt
+setuptools

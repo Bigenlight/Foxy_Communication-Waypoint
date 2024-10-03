@@ -1,0 +1,23 @@
+[1.000s] Invoking command in '/home/dj/Foxy_Communication-Waypoint/src/mqtt_subscriber': PYTHONPATH=/home/dj/Foxy_Communication-Waypoint/build/mqtt_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dj/Foxy_Communication-Waypoint/install/mqtt_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mqtt_subscriber build --build-base /home/dj/Foxy_Communication-Waypoint/build/mqtt_subscriber/build install --record /home/dj/Foxy_Communication-Waypoint/build/mqtt_subscriber/install.log --single-version-externally-managed
+[1.188s] running egg_info
+[1.188s] writing ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/PKG-INFO
+[1.189s] writing dependency_links to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/dependency_links.txt
+[1.189s] writing entry points to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/entry_points.txt
+[1.189s] writing requirements to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/requires.txt
+[1.189s] writing top-level names to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/top_level.txt
+[1.224s] reading manifest file '../../build/mqtt_subscriber/mqtt_subscriber.egg-info/SOURCES.txt'
+[1.225s] writing manifest file '../../build/mqtt_subscriber/mqtt_subscriber.egg-info/SOURCES.txt'
+[1.225s] running build
+[1.225s] running build_py
+[1.225s] copying mqtt_subscriber/mqtt_subscriber.py -> /home/dj/Foxy_Communication-Waypoint/build/mqtt_subscriber/build/lib/mqtt_subscriber
+[1.225s] running install
+[1.226s] running install_lib
+[1.227s] copying /home/dj/Foxy_Communication-Waypoint/build/mqtt_subscriber/build/lib/mqtt_subscriber/mqtt_subscriber.py -> /home/dj/Foxy_Communication-Waypoint/install/mqtt_subscriber/lib/python3.8/site-packages/mqtt_subscriber
+[1.228s] byte-compiling /home/dj/Foxy_Communication-Waypoint/install/mqtt_subscriber/lib/python3.8/site-packages/mqtt_subscriber/mqtt_subscriber.py to mqtt_subscriber.cpython-38.pyc
+[1.231s] running install_egg_info
+[1.233s] removing '/home/dj/Foxy_Communication-Waypoint/install/mqtt_subscriber/lib/python3.8/site-packages/mqtt_subscriber-0.0.0-py3.8.egg-info' (and everything under it)
+[1.233s] Copying ../../build/mqtt_subscriber/mqtt_subscriber.egg-info to /home/dj/Foxy_Communication-Waypoint/install/mqtt_subscriber/lib/python3.8/site-packages/mqtt_subscriber-0.0.0-py3.8.egg-info
+[1.234s] running install_scripts
+[1.257s] Installing mqtt_subscriber script to /home/dj/Foxy_Communication-Waypoint/install/mqtt_subscriber/lib/mqtt_subscriber
+[1.257s] writing list of installed files to '/home/dj/Foxy_Communication-Waypoint/build/mqtt_subscriber/install.log'
+[1.293s] Invoked command in '/home/dj/Foxy_Communication-Waypoint/src/mqtt_subscriber' returned '0': PYTHONPATH=/home/dj/Foxy_Communication-Waypoint/build/mqtt_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dj/Foxy_Communication-Waypoint/install/mqtt_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mqtt_subscriber build --build-base /home/dj/Foxy_Communication-Waypoint/build/mqtt_subscriber/build install --record /home/dj/Foxy_Communication-Waypoint/build/mqtt_subscriber/install.log --single-version-externally-managed
