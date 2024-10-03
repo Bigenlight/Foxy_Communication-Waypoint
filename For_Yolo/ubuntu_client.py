@@ -15,7 +15,7 @@ import pickle
 # 본가 데탑 2.4g
 #server_ip = '192.168.35.151' 
 # window(ICES lab 5g)
-server_ip = '10.50.34.482' 
+server_ip = '10.50.34.48' 
 server_port = 8000
 
 # Create a TCP socket
