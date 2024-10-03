@@ -5,6 +5,7 @@ from rclpy.node import Node
 from std_msgs.msg import String
 import pandas as pd
 from pyproj import Transformer
+import re  # Import the regular expressions module
 
 class WaypointConverter(Node):
     def __init__(self):
@@ -39,7 +40,8 @@ class WaypointConverter(Node):
         """
         try:
             # Parse the GPS location from the message
-            gps_data = msg.data.strip().strip(' ').strip(';').strip('()')
+            # Remove unwanted characters
+            gps_data = msg.data.strip(' ()‘’";')
             self.ref_lat, self.ref_lon = map(float, gps_data.split(','))
 
             self.get_logger().info(f'Set reference GPS location to: ({self.ref_lat}, {self.ref_lon})')
@@ -76,7 +78,7 @@ class WaypointConverter(Node):
             relative_waypoints.append((x, y, link))
         
         # **Add interpolation between waypoints**
-        dense_waypoints = self.interpolate_waypoints(relative_waypoints, 50) # 좌표 50배
+        dense_waypoints = self.interpolate_waypoints(relative_waypoints, 50)
 
         # Save the converted waypoints to a CSV file
         self.save_to_csv(dense_waypoints)
@@ -88,16 +90,20 @@ class WaypointConverter(Node):
         """
         waypoints = []
         try:
-            # Remove 'start;' and 'end;' from the message
-            data = data.replace('start;', '').replace('end;', '').strip()
-            points = data.split(';')
-
-            for point in points:
-                point = point.strip()
-                if point:
-                    # Extract the GPS coordinates and link number
-                    lat, lon, link = point.strip('()').split(',')
-                    waypoints.append((float(lat), float(lon), int(link)))
+            # Remove 'start;' and 'end;' and unwanted quotation marks
+            data = data.replace('‘', '').replace('’', '').replace('start;', '').replace('end;', '').strip()
+            # Use regular expressions to find all occurrences of (lat, lon, link)
+            matches = re.findall(r'\(([^)]+)\)', data)
+            for match in matches:
+                parts = match.split(',')
+                if len(parts) == 3:
+                    lat_str, lon_str, link_str = [p.strip() for p in parts]
+                    lat = float(lat_str)
+                    lon = float(lon_str)
+                    link = int(link_str)
+                    waypoints.append((lat, lon, link))
+                else:
+                    self.get_logger().warn(f'Invalid waypoint format: {match}')
         except Exception as e:
             self.get_logger().error(f"Error parsing GPS data: {e}")
             return []
@@ -135,8 +141,11 @@ class WaypointConverter(Node):
 
         df = pd.DataFrame(data)
 
-        # Save to CSV file (update the path as needed)
-        df.to_csv('../2023CAPSTONE_AutoCar_in_Ros2/AutoCarROS2/autocar_map/data/relative_waypoints.csv', index=False)
+        # csv 파일 저장 경로 수정해야 함
+        csv_file = '../2023CAPSTONE_AutoCar_in_Ros2/AutoCarROS2/autocar_map/data/relative_waypoints.csv'
+        df.to_csv(csv_file, index=False)
+        
+        self.get_logger().warn(f"Saved new Waypoint csv to {csv_file}")
 
 def main(args=None):
     rclpy.init(args=args)

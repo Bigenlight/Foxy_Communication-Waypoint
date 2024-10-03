@@ -1,0 +1,27 @@
+[1.108s] Invoking command in '/home/theo/Foxy_Communication-Waypoint/src/waypoint_converter': PYTHONPATH=/home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/waypoint_converter build --build-base /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build install --record /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/install.log --single-version-externally-managed install_data
+[1.325s] running egg_info
+[1.341s] writing ../../build/waypoint_converter/waypoint_converter.egg-info/PKG-INFO
+[1.342s] writing dependency_links to ../../build/waypoint_converter/waypoint_converter.egg-info/dependency_links.txt
+[1.342s] writing entry points to ../../build/waypoint_converter/waypoint_converter.egg-info/entry_points.txt
+[1.342s] writing requirements to ../../build/waypoint_converter/waypoint_converter.egg-info/requires.txt
+[1.342s] writing top-level names to ../../build/waypoint_converter/waypoint_converter.egg-info/top_level.txt
+[1.466s] reading manifest file '../../build/waypoint_converter/waypoint_converter.egg-info/SOURCES.txt'
+[1.467s] writing manifest file '../../build/waypoint_converter/waypoint_converter.egg-info/SOURCES.txt'
+[1.467s] running build
+[1.468s] running build_py
+[1.468s] copying waypoint_converter/__init__.py -> /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build/lib/waypoint_converter
+[1.468s] copying waypoint_converter/waypoint_converter.py -> /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build/lib/waypoint_converter
+[1.468s] running install
+[1.474s] running install_lib
+[1.489s] copying /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build/lib/waypoint_converter/waypoint_converter.py -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter
+[1.489s] byte-compiling /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter/waypoint_converter.py to waypoint_converter.cpython-38.pyc
+[1.491s] running install_data
+[1.491s] copying resource/waypoint_converter -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/ament_index/resource_index/packages
+[1.491s] copying package.xml -> /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/share/waypoint_converter
+[1.491s] running install_egg_info
+[1.510s] removing '/home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter-0.0.0-py3.8.egg-info' (and everything under it)
+[1.510s] Copying ../../build/waypoint_converter/waypoint_converter.egg-info to /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages/waypoint_converter-0.0.0-py3.8.egg-info
+[1.511s] running install_scripts
+[1.558s] Installing waypoint_converter script to /home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/waypoint_converter
+[1.558s] writing list of installed files to '/home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/install.log'
+[1.580s] Invoked command in '/home/theo/Foxy_Communication-Waypoint/src/waypoint_converter' returned '0': PYTHONPATH=/home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/Foxy_Communication-Waypoint/install/waypoint_converter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/waypoint_converter build --build-base /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/build install --record /home/theo/Foxy_Communication-Waypoint/build/waypoint_converter/install.log --single-version-externally-managed install_data
