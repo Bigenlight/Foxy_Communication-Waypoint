@@ -7,13 +7,15 @@ import pickle
 # espers_5g
 # server_ip = '192.168.0.107'
 # window(ICES lab 5g)
-server_ip = '192.168.0.12' 
+#server_ip = '192.168.0.12' 
 # hotspot(phone)
 #server_ip = '192.168.151.154' 
 # laptop(thedering)
 #server_ip = '192.168.137.1'
 # 본가 데탑 2.4g
 #server_ip = '192.168.35.151' 
+# window(ICES lab 5g)
+server_ip = '10.50.34.482' 
 server_port = 8000
 
 # Create a TCP socket
