@@ -111,21 +111,17 @@ class WaypointConverter(Node):
         return waypoints
 
     def interpolate_waypoints(self, waypoints, num_points_between):
-        """
-        Adds interpolated waypoints between each pair of waypoints.
-        """
         dense_waypoints = []
         for i in range(len(waypoints) - 1):
             x1, y1, link1 = waypoints[i]
             x2, y2, link2 = waypoints[i + 1]
-            # Interpolate between waypoints
+            # 데이터 증강
             for j in range(num_points_between + 1):
                 t = j / (num_points_between + 1)
                 x = x1 + t * (x2 - x1)
                 y = y1 + t * (y2 - y1)
                 link = link1  # Use the link of the starting waypoint
                 dense_waypoints.append((x, y, link))
-        # Add the last waypoint
         dense_waypoints.append(waypoints[-1])
         return dense_waypoints
 
