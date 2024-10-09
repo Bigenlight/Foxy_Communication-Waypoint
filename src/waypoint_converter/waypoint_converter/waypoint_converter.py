@@ -78,7 +78,7 @@ class WaypointConverter(Node):
             relative_waypoints.append((x, y, link))
         
         # **Add interpolation between waypoints**
-        dense_waypoints = self.interpolate_waypoints(relative_waypoints, 50)
+        dense_waypoints = self.interpolate_waypoints(relative_waypoints, 5)
 
         # Save the converted waypoints to a CSV file
         self.save_to_csv(dense_waypoints)
